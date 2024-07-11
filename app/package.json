@@ -33,7 +33,8 @@
 		"typescript": "^5.0.0",
 		"typescript-eslint": "^8.0.0-alpha.20",
 		"vite": "^5.0.3",
-		"vitest": "^1.2.0"
+		"vitest": "^1.2.0",
+		"components": "file:../components"
 	},
 	"type": "module"
 }
