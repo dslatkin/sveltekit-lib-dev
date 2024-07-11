@@ -1,0 +1,17 @@
+{
+    "folders": [
+        {
+            "name": "devcontainer",
+            "path": "../.devcontainer"
+        },
+        {
+            "name": "components",
+            "path": "../components"
+        },
+        {
+            "name": "app",
+            "path": "../app"
+        }
+    ],
+    "settings": {}
+}
