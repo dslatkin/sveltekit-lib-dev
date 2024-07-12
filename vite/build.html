@@ -19,9 +19,11 @@
     </style>
   </head>
   <body>
-    <h1>Using Dev Files</h1>
-    <p><a href="/build.html">View using built files ➡️</a></p>
+    <h1>Using Built Files</h1>
+    <p><a href="/index.html">View using dev files ➡️</a></p>
     <my-counter><p class="red">Slotted .red content</p></my-counter>
-    <script type="module" src="/src/main.ts"></script>
+    <p>Use <code>npm run build</code> to generate the build files.</p>
+    <!-- todo: Use --watch on build -->
+    <script type="module" src="/dist/my-wc-lib.js"></script>
   </body>
 </html>
