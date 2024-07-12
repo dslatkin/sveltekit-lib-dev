@@ -9,8 +9,12 @@
             "path": "../components"
         },
         {
-            "name": "app",
-            "path": "../app"
+            "name": "sveltekit",
+            "path": "../sveltekit"
+        },
+        {
+            "name": "vite",
+            "path": "../vite"
         }
     ],
     "settings": {
