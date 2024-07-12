@@ -3,8 +3,14 @@
   const increment = () => {
     count += 1
   }
+
+  console.log('Loading Counter.svelte')
 </script>
 
+<svelte:options customElement="my-counter" />
+
 <button on:click={increment}>
-  count is {count}
+  <slot />
+  <p class="red">Shadowed .red content</p>
+  <p>Count is {count}</p>
 </button>

@@ -5,9 +5,22 @@
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vite + Svelte + TS</title>
+    <script>
+      document.addEventListener('DOMContentLoaded', () => {
+        Array.from(document.querySelectorAll('my-counter .red')).forEach((ele) => {
+          console.log(ele);
+        });
+      });
+    </script>
+    <style>
+      .red {
+        color: red;
+      }
+    </style>
   </head>
   <body>
-    <div id="app"></div>
+    <!-- <div id="app"></div> -->
+    <my-counter><p class="red">Slotted .red content</p></my-counter>
     <script type="module" src="/src/main.ts"></script>
   </body>
 </html>
