@@ -1,5 +1,5 @@
 import './app.css'
-import App from './App.svelte'
+import Counter from './lib/Counter.svelte'
 
 console.log('Loading main.js')
 
