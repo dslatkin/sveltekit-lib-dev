@@ -8,7 +8,7 @@
   })
 </script>
 
-<svelte:options customElement="my-inner" />
+<!-- <svelte:options customElement="my-inner" /> -->
 
 <div>Inner</div>
 

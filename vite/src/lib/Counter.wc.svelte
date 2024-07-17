@@ -1,3 +1,7 @@
+<script lang="ts" context="module">
+  export const wcTagName = 'danny-counter';
+</script>
+
 <script lang="ts">
   let count: number = 0
   const increment = () => {
@@ -7,7 +11,7 @@
   console.log('Loading Counter.svelte')
 </script>
 
-<svelte:options customElement="my-counter" />
+<!-- <svelte:options customElement="my-counter" /> -->
 
 <button on:click={increment}>
   <slot />

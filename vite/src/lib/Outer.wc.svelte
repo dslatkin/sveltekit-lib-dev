@@ -9,7 +9,7 @@
 
 </script>
 
-<svelte:options customElement="my-outer" />
+<!-- <svelte:options customElement="my-outer" /> -->
 
 <div>
   Outer start
