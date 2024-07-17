@@ -1,5 +1,5 @@
 import './app.css'
-import Counter from './lib/Counter.svelte'
+import.meta.glob('./lib/**/*.wc.svelte', { eager: true })
 
 console.log('Loading main.js')
 
