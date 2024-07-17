@@ -10,7 +10,13 @@
 	<meta name="description" content="Svelte demo app" />
 </svelte:head>
 
+<p>Svelte component:</p>
+
 <Example />
+
+<p>Web component:</p>
+
+<my-example></my-example>
 
 <section>
 	<h1>
