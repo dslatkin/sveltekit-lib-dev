@@ -1,0 +1,10 @@
+{
+    "svelte.enable-ts-plugin": true,
+
+    // Suppress VS Code's Svelte extension warning about missing custom
+    // element compile options since we're using the actual Svelte component
+    // and not the custom element constructor the library built from it.
+    "svelte.plugin.svelte.compilerWarnings": {
+        "missing-custom-element-compile-options": "ignore"
+    }
+}
